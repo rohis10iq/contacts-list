@@ -1,4 +1,5 @@
-import React from 'react'
+import React from "react";
+
 
 function Card(props) {
   return (
@@ -6,10 +7,7 @@ function Card(props) {
       <div className="card">
         <div className="top">
           <h2 className="name">{props.name}</h2>
-          <img className="circle-img"
-            src={props.img}
-            alt="avatar_img"
-          />
+          <img className="circle-img" src={props.img} alt="avatar_img" />
         </div>
         <div className="bottom">
           <p className="info">{props.phone}</p>
@@ -17,7 +15,7 @@ function Card(props) {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default Card
+export default Card;
